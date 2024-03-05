@@ -1,6 +1,9 @@
 $(document).ready(function() {
 
-//Set up the arrays - player cards nums, player cards pics, dealer cards nums, dealer cards pics
+  // New Comments: Learning how to create repositories and source control
+  // Script which manipulates the game and allows th user to inteact with the buttons on the page such as Let's Play, Hit, Stand, and Reset.
+  
+  //Set up the arrays - player cards nums, player cards pics, dealer cards nums, dealer cards pics
   var playerCards = [];
   var playerPics = [];
   var dealerPics = [];
