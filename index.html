@@ -1,0 +1,57 @@
+<!-- source for cards: https://code.google.com/archive/p/vector-playing-cards/ -->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Regina's Black Jack Game'</title>
+  <meta name="description" content="Simple blackjack game playing against CPU.">
+  <meta name="author" content="Regina Czech">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 id="intro">WELCOME TO BLACKJACK</h1>
+  </header>
+  <main>
+    <button id="letsPlay" type="click">Let's Play! <strong>DEAL</strong></button>
+    <table class="score">
+      <thead>
+        <tr>
+          <th id="scoreboard">Scoreboard</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Dealer Score:</th>
+        </tr>
+        <tr>
+          <td id="dealerScore">0</td>
+        </tr>
+        <tr>
+          <th>Player Score:</th>
+        </tr>
+        <tr>
+          <td id="playerScore">0</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2 class="player" id="dealer">DEALER</h2>
+    <br>
+    <section class= "dSection">
+      <div class="emptyBox"></div>  
+    </section>
+    <br><hr><br>
+    <section class="pSection">
+      <div class="emptyBox"></div>
+    <section>
+    <h2 class="player" id="you">YOU</h2>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./script.js"></script>
+  
+</body>
+</html>
